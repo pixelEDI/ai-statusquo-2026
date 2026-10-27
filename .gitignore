@@ -1,0 +1,15 @@
+# Lokale Konfiguration und Zugangsdaten
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Lokale Werkzeuge und temporäre Dateien
+.agents/
+.aws/
+.codex/
+.cache/
+*.log
+__pycache__/
+node_modules/
